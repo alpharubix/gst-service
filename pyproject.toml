@@ -1,0 +1,14 @@
+[project]
+name = "gst-service"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "beanie==1.26.0",
+    "fastapi>=0.135.2",
+    "httpx>=0.28.1",
+    "motor>=3.7.1",
+    "pydantic-settings>=2.13.1",
+    "uvicorn>=0.42.0",
+]
